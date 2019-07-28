@@ -199,8 +199,13 @@ i, h3 {
     margin: 15px 0 8px 0;
 }
 
+#footer-top-bg {
+    background: #3cc3b5
+}
 
-
+#footer-top {
+    justify-content: space-between;
+}
 
 
 
