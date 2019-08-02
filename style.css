@@ -151,6 +151,13 @@ i, h3 {
 }
 
 
+
+#center-footer {
+    background: #3ac0b9;
+}
+
+
+
 .product {
     width: 33.33%;
 }
@@ -199,12 +206,35 @@ i, h3 {
     margin: 15px 0 8px 0;
 }
 
+#footer-top-bg {
+    background: #3cc3b5
+}
+
+#footer-top {
+    justify-content: space-between;
+    padding: 35px 15px 15px 20px;
+}
+
+#footer-top h2 {
+    color: white;
+    margin-top: 0;
+}
 
 
 
+#footer-top a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 7px;
+    display: block;
+}
 
-
-
+#footer-bottom {
+    background: #2da89b;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 
 
@@ -269,5 +299,13 @@ i, h3 {
 
     .product .wrap {
         margin: 10px;
+    }
+
+    #footer-top .nav {
+        margin: 15px;
+    }
+
+    #footer-top {
+        justify-content: center;
     }
 }
